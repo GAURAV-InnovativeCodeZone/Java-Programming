@@ -15,6 +15,7 @@ public class PalindromeChecker {
 				break;
 			}
          }
+		 sc.close();
          if (isPalindrome) {
          	System.out.println(str + " is a palindrome.");
          	} else {

@@ -1,7 +1,7 @@
 // addition, subtraction, multiplication, division of two number
 
 import java.util.Scanner;
-public class sum_sub_mul_div{
+public class Arithmetic_Operations{
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -15,10 +15,10 @@ public class sum_sub_mul_div{
         int mul = a * b;
         float div = a / b;
 
-        System.out.println("Addition of a + b is " +sum);
-        System.out.println("Subtraction of a - b is " +sub);
-        System.out.println("Multiplication of a * b is " +mul);
-        System.out.println("Divison of a / b is " +div);
+        System.out.println("Addition of a+b = " +sum);
+        System.out.println("Subtraction of a-b = " +sub);
+        System.out.println("Multiplication of a*b = " +mul);
+        System.out.println("Divison of a/b = " +div);
         sc.close();
     }
 }

@@ -2,7 +2,7 @@
   // Program to check whether a provided number is prime or not
 
 import java.util.Scanner;
-public class PrimeChecker {
+public class PrimeChecker{
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the number : ");
@@ -17,6 +17,7 @@ public class PrimeChecker {
 						break;
 					}
            }
+		   sc.close();
   }
   if (isPrime) {
   	System.out.println(number + " is a prime number.");
